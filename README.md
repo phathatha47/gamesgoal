@@ -1,12 +1,10 @@
 # Diseño web 960 grid
 
-***Nota: Todo el proyecto incluye la funcionalidad de Jquery y Javascript puro, ninguna libreria.<br>
-		 Siempre intentando realizar los efectos de forma autónoma, con pequeñas ayudas relativas a conceptos y teoria.***
+**Nota: Todo el proyecto incluye la funcionalidad de Jquery y Javascript puro, ninguna libreria.<br>
+		 Siempre intentando realizar los efectos de forma autónoma, con pequeñas ayudas relativas a conceptos y teoria.**
 
-
-## Recursos 
-	1. Imagenes 
-	<br> 1.1 Los iconos han sido obtenidos de [Freesound](https://freesound.org/) en su mayoria, reciclando anteriores imagenes
+## Imagen
+ 1. Obtenidos los iconos de [Flaticon](https://www.flaticon.es/), tambien reciclando imagenes anteriores.
 
 ## Efectos 
 
