@@ -1,0 +1,40 @@
+h1 {
+  font-size: 40px;
+}
+
+body {
+  background: #E6E2E2;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+div.container_12 > div {
+  border-top: 3px solid orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+}
+
+button {
+  margin: 50px 0;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px;
+  opacity: 0.9;
+  background: #C62D2D;
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=estilos.css.map */

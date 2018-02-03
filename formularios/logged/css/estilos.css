@@ -1,0 +1,17 @@
+body {
+	background: #E6E2E2;
+}
+
+div {
+	font-family: 'Roboto Condensed', sans-serif;
+	border-top:3px solid orange;
+	display: flex;
+	align-items: baseline;
+	flex-direction: column;
+
+
+}
+
+div * {
+	margin: 20px 0;
+}
