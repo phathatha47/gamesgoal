@@ -843,6 +843,9 @@ section.container_12 article footer div.informacion > div > a {
   transition: all 300ms ease;
   position: relative;
 }
+section.container_12 article footer div.informacion > div > a:hover {
+  cursor: pointer;
+}
 section.container_12 article footer div.informacion > div > a:before {
   content: '';
   background: #1DE708;

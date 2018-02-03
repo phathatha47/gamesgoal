@@ -68,8 +68,9 @@
 
 			// Efecto fade al hacer scroll
 			var coleccionHijos = document.querySelectorAll('article > *');
-			var limite = (screen.width)-100;
-			console.log(screen.width);
+			var limite = (screen.width/2)*1.5;
+			console.log(screen.width+ ' limite1');
+			console.log(limite + ' limite2');
 			for (var i = 2; i < coleccionHijos.length; i++) {
 				console.log(coleccionHijos[i].getBoundingClientRect().top)
 				if(coleccionHijos[i].getBoundingClientRect().top<limite){
