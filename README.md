@@ -6,7 +6,7 @@
 
 ## Recursos 
 	1. Imagenes 
-	<br> 1.1 Los iconos han sido obtenidos de [flaticon](https://www.flaticon.com)en su mayoria, reciclando anteriores imagenes
+	<br> 1.1 Los iconos han sido obtenidos de [Freesound](https://freesound.org/) en su mayoria, reciclando anteriores imagenes
 
 ## Efectos 
 
