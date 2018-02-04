@@ -59,7 +59,7 @@
 				logo.css('width', '60px');
 			}
 			var header = $('header');
-			if(pixelesNavegador > 2000) {
+			if(pixelesNavegador > 1000) {
 				header.css('transform', 'translate(0,-200px)');
 			}else {
 				header.css('transform', 'translate(0,0px)');
