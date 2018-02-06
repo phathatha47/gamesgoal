@@ -3,6 +3,7 @@
 **Nota: Todo el proyecto incluye la funcionalidad de Jquery y Javascript puro, ninguna libreria.<br>
 		 Siempre intentando realizar los efectos de forma autónoma, con pequeñas ayudas relativas a conceptos y teoria.**
 
+# Formulario incluido.
 
 
 ## Imagen
