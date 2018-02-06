@@ -15,18 +15,18 @@
 				<h1>REGISTRO</h1>
 				<form action="logged/index.html" class='formReg'>
 					<label>Introduce nombre y primer apellido *: </label>
-					<input type="text" pattern="(([A-Za-z]{3,15}\s[A-Za-z]{3,15})$){1}" required name="" class="name"><br>
+					<input type="text" pattern="(([A-Za-z]{3,15}\s[A-Za-z]{3,15})$){1}" required class="name"><br>
 					<label>Introduce tu correo electronico *: </label>
-					<input type="email" required name="" class="email"><br>
+					<input type="email" required  class="email"><br>
 					<label>Contraseña *: </label>
-					<input type="password" required name="" class='pass' onkeyup="comprobar()"><span class='alerta'></span><br>
+					<input type="password" required class='pass' onkeyup="comprobar()"><span class='alerta'></span><br>
 					<label>Confirmacion de contraseña *: </label>
-					<input type="password" required name="" class="pass2"> <span class='alerta2'></span>
+					<input type="password" required class="pass2"> <span class='alerta2'></span>
 					<br>
 					<label>Sexo</label>
 					<select>
 						<optgroup label="Seleccione sexo" >
-						<option selected="selected"></option>
+						<option selected="selected" label="Selecione"></option>
 						<option>Femenino</option>
 						<option>Masculino</option>
 						</optgroup>
@@ -34,7 +34,7 @@
 					<br>
 					<div class='cajaNacimiento'>
 						<label>¿Desea dar su fecha de nacimiento?</label>
-						<input type="checkbox" class='check' name=""><br>
+						<input type="checkbox" class='check'><br>
 						<div class='nacimiento'>
 							<label>Fecha de nacimiento: </label>
 							<input type="date" min='1900-01-01' class='date'>
@@ -42,7 +42,7 @@
 					</div>
 					<br>
 					<label>Direccion: </label>
-					<input type="text" name="" class='dir'><br>
+					<input type="text" class='dir'><br>
 					<label>Pais: </label>
 					<select class='pais'>
 					</select><br>
@@ -53,7 +53,7 @@
 					<br>
 					<div>
 						<label>¿Desea recibir novedades?</label>
-						<input type="checkbox" class='novedades' name=""><br>
+						<input type="checkbox" class='novedades' ><br>
 						<label>¿Desea suscribirse a nuestra revista virtual?</label>
 						<input type="checkbox" class='revista'>
 					</div>
@@ -66,10 +66,10 @@
 			<h1>IDENTIFICARSE</h1>
 			<form class='formLog' action='logged/index.html'>
 				<label>Introduce nombre y primer apellido: </label>
-				<input type="text" pattern="(([A-Za-z]{3,15}\s[A-Za-z]{3,15})$){1}" required name="" class="name"><br>
+				<input type="text" pattern="(([A-Za-z]{3,15}\s[A-Za-z]{3,15})$){1}" required  class="name"><br>
 				<label>Contraseña: </label>
-				<input type="password" required name="" class='pass' onkeyup="comprobar()"><span class='alerta'></span><br>
-				<input type="submit" class='sendLoggin' name="" value="Iniciar Sesion">
+				<input type="password" required  class='pass' onkeyup="comprobar()"><span class='alerta'></span><br>
+				<input type="submit" class='sendLoggin'  value="Iniciar Sesion">
 			</form>
 			<button class="inicio">Volver al inicio</button>
 		</div>
